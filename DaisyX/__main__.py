@@ -79,7 +79,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Daisy to your group 💫", url="t.me/mohinisl?startgroup=true"
+            text="💫 Add mohini to your group 💫", url="t.me/mohinislbz_bot?startgroup=true"
         ),
     ],
 ]
@@ -101,7 +101,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Inuka](t.me/InukaASiTH),[Jason](t.me/imjanindu),"""
+Support them  [supun](t.me/supunma),[slbotzone](t.me/slbotzone),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -360,10 +360,10 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by Infinity_Bots.* "
-            f"\n\n 🔥 Join [Infinity_Bots](https://t.me/Infinity_Bots) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @supunma.* "
+            f"\n\n 🔥 Join [slbotzone](https://t.me/slbotzone) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/473cc17913393959e0667.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/07bc1ece67fa5d976d8eb.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -418,9 +418,9 @@ def DaisyX_about_callback(update, context):
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Daisy](https://github.com/inukaasith/daisy) + [Naruto](https://github.com/imjanindu/narutorobot)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was written by InukaASiTH and Imjanindu"
+            text=f"*{dispatcher.bot.first_name} Is the redisigned version of mohini and Naruto for the best performance.*"
+            f"\n\nBased on [mohini](https://github.com/inukaasith/daisy) + [Naruto](https://github.com/imjanindu/narutorobot)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was written by supun and slbotzone "
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
